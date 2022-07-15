@@ -1,0 +1,27 @@
+.navigation_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    height: 8vh;
+    width: 100%;
+    background: var(--backgroundColor);
+    border-radius: 0px 0px var(--radius) var(--radius);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+}
+
+
+
+.icon_image{
+    height: 50%;
+}
